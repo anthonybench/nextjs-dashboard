@@ -1,0 +1,8 @@
+- co-location :: components & pages are both in app/ together
+- page.tsx & layout.tsx
+- app/utils/*.ts
+- app/components/*.tsx
+- app/fonts.ts
+- public/*.[png|ico]
+- import { inter } from '@/app/ui/fonts'; // @ is an alias to make import paths simpler
+- conditional styling :: clsx{}
